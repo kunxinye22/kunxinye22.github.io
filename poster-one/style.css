@@ -1,0 +1,102 @@
+body {
+    background-color:orange;
+}
+
+div.poster {
+    background-color: orange(247, 115, 0);
+    width: 100%;
+}
+
+div.text {
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    transition:0.5s
+}
+
+@font-face {
+    font-family:backout;
+    src: url(font/BackOut.eot);
+}
+
+
+@font-face {
+    font-family:outward ;
+    src: url(font/outward-borders-webfont.eot)format(eot);
+}
+
+
+@font-face {
+    font-family:resistance;
+    src: url(font/resistance_generale-webfont.eot)format(eot);
+}
+
+@font-face {
+    font-family:picnic;
+    src: url(font/PicNic-Regular.eot)format(eot);
+}
+
+
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+
+div.text.two {
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:greenyellow;
+}
+
+div.text.three {
+    font-size: 100px;
+    font-family:fantasy;
+    color:blue;
+}
+
+/* rule 2 */
+
+div.text.a {
+    text-align:right;
+}
+
+div.text.b {
+    text-align:center;
+}
+
+div.text.c {
+    text-align:left;
+}
+
+/* rule 3 */
+
+div.text.x {
+    border-radius: 100%;
+    background-color: darkslateblue;
+    
+}
+
+div.text.y {
+    border-bottom: 100%;
+    background-color:aqua;
+}
+
+div.text.z {
+    border-width: 100%;
+    background-color:violet;
+    font-weight: bolder;
+}
+
+
+
+div.small {
+    font-size:30px;
+    text-align: center;
+    color:black;
+}
+
