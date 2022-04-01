@@ -1,0 +1,67 @@
+body {
+    background-color:greenyellow;
+}
+
+div.poster {
+    background-color: white;
+    width:75%;
+}
+
+div.text {
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+    transition:0.5s
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 30px;
+}
+
+div.text.two {
+    font-size: 60px;
+}
+
+div.text.three {
+    font-size: 160px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color:blue
+}
+
+div.text.b {
+    color:black;
+}
+
+div.text.c {
+    color: orange;
+}
+
+/* rule 3 */
+
+div.text.x {
+    text-align:right;
+}
+
+div.text.y {
+    text-align: center;
+}
+
+div.text.z {
+    text-align: left;
+}
+
+
+
+div.small {
+    font-size:30px;
+    text-align: center;
+    color:blueviolet;
+}
+

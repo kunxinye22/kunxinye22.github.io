@@ -1,0 +1,126 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    background-color: black;
+    width:75%;
+}
+
+div.container{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+div.col{
+    outline: 1px solid white;
+    width: 40%;
+}
+
+div.logo{
+    font-size: 50px;
+}
+
+/* col grid 4 */
+div.w1-4{
+    width: 25%;
+}
+
+div.w2-4{
+    width:50%;
+}
+
+div.w3-4{
+    width:75%
+}
+
+div.w4-4{
+    width: 100%;
+}
+
+/* col grid 2 */
+
+div.w1-2{
+    width: 33.333%;
+}
+
+div.w2-2{
+    width:66.666%;
+}
+
+div.w3-2{
+    width:99.999%
+}
+
+div.w4-2{
+    width: 100%;
+}    
+
+/* col grid 3 */
+
+
+
+
+
+
+
+
+div.text {
+    font-size: 120px;
+    font-family:fantasy;
+    text-align: center;
+    color: red;
+    transition:0.5s
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 100px;
+}
+
+div.text.two {
+    font-size: 120px;
+}
+
+div.text.three {
+    font-size: 80px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color:blue
+}
+
+div.text.b {
+    color:red;
+}
+
+div.text.c {
+    color: olivedrab;
+}
+
+/* rule 3 */
+
+div.text.x {
+    text-align:right;
+}
+
+div.text.y {
+    text-align: center;
+}
+
+div.text.z {
+    text-align: left;
+}
+
+
+
+div.small {
+    font-size:30px;
+    text-align: center;
+    color:blueviolet;
+}
+
