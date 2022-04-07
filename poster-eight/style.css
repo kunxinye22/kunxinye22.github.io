@@ -1,0 +1,108 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    background-color: yellow;
+    width: 100%;;
+    background-image: url('q5.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@font-face {
+    font-family: "font2"; 
+    src: url("font2.woff") format("woff"); 
+  }
+
+  
+
+
+div.text {
+    font-size: 80px;
+    font-family: font2; 
+    text-align: left;
+    color:black;
+    transition:0.5s
+}
+
+div.container {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+div.col {
+   
+}
+
+div.w1-2 {
+    width: 50%;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 80px;
+}
+
+div.text.two {
+    font-size: 40px;
+}
+
+div.text.three {
+    font-size: 150px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    background-image: url('q3.jpg');
+    background-repeat:no-repeat;
+    background-size: 500px;
+    background-position: bottom;
+    color: transparent;
+
+}
+
+div.text.b {
+    background-image: url('q1.jpg');
+    background-repeat:no-repeat;
+    background-size: 500px;
+    background-position: top left;
+    color: transparent;
+    
+}
+
+div.text.c {
+    background-image: url('q2.jpg');
+    background-repeat:no-repeat;
+    background-size: 500px;
+    background-position: top right;
+    color: transparent;
+
+
+}
+
+/* rule 3 */
+
+div.text.x {
+    color: black;
+}
+
+div.text.y {
+    color: white;
+}
+
+div.text.z {
+    color: pink;
+}
+
+
+
+div.small {
+    font-size:30px;
+    text-align: center;
+    color:blueviolet;
+}
+

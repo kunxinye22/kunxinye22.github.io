@@ -1,0 +1,105 @@
+body {
+    background-color:black;
+}
+
+div.poster {
+    background-color: yellow;
+    width: 100%;;
+    background-image: url('z1.png');
+    background-repeat:repeat;
+    background-size: 250px;
+    background-position: center center;
+}
+@font-face {
+    font-family: "font2"; /* Define the custom font name */
+    src: url("font2.woff") format("woff"); /* Define where the font can be downloaded usually this will be the same place as your CSS file notice it's a woff file! convert your fonts */
+  }
+  
+
+
+div.text {
+    font-size: 80px;
+    font-family: font2; 
+    text-align: center;
+    color:black;
+    transition:0.5s
+}
+
+div.container {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+div.col {
+   
+}
+
+div.w1-2 {
+    width: 50%;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 20px;
+    color: pink;
+}
+
+div.text.two {
+    font-size: 100px;
+    color: black;
+}
+
+div.text.three {
+    font-size: 150px;
+    color: blue;
+}
+
+/* rule 2 */
+
+div.text.a {
+    background-image: url('z3.png');
+    background-repeat:no-repeat;
+    background-size: 700px 300px;
+    background-position: top left;
+}
+
+div.text.b {
+    background-image: url('z2.png');
+    background-repeat:no-repeat;
+    background-size: 700px 300px;
+    background-position: top right;
+    
+}
+
+div.text.c {
+    background-image: url('z4.png');
+    background-repeat:no-repeat;
+    background-size: 700px 300px;
+    background-position: bottom left;
+
+}
+
+/* rule 3 */
+
+div.text.x {
+    background: linear-gradient(red, yellow);
+}
+
+div.text.y {
+
+}
+
+div.text.z {
+
+}
+
+
+
+div.small {
+    font-size:30px;
+    text-align: center;
+    color:blueviolet;
+}
+
