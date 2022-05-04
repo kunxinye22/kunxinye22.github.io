@@ -1,11 +1,9 @@
 body {
-    background-color:black;
+    background-image: url('q5.jpg');
 }
 
 div.poster {
-    background-color: yellow;
     width: 100%;;
-    background-image: url('q5.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center center;

@@ -1,18 +1,15 @@
 body {
-    background-color:black;
+    background-color:rgb(255, 255, 255);
 }
 
 div.poster {
-    background-color: black;
-    width: 100%;;
-    background-image: url('light2.png');
-    background-repeat:no-repeat;
-    background-size: contain;
-    background-position: center center;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
 }
 @font-face {
     font-family: "font1"; /* Define the custom font name */
-    src: url("font1.woff") format("woff"); /* Define where the font can be downloaded usually this will be the same place as your CSS file notice it's a woff file! convert your fonts */
+    src: url("FORTSSH_.woff") format("woff"); /* Define where the font can be downloaded usually this will be the same place as your CSS file notice it's a woff file! convert your fonts */
   }
   
 
@@ -31,18 +28,56 @@ div.container {
 
 }
 
-div.col {
-   
+ /* 1 col grid */
+
+ div.w1-4 { 
+    width:25%;
 }
+
+div.w2-4 { 
+    width:50%;
+}
+
+div.w3-4 { 
+    width: 75%;
+}
+
+div.w4-4 { 
+    width: 100%;
+}
+
+/* 2 col grid */
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%;
+}
+
+div.w3-3 {
+    width: 100%;
+}
+
+/* 3 col grid */
 
 div.w1-2 {
     width: 50%;
 }
 
+div.w2-2 {
+    width:100%;
+}
+
+/* end of grids */
+
+
+
 /* rule 1 */
 
 div.text.one {
-    font-size: 40px;
+    font-size: 90px;
 }
 
 div.text.two {
@@ -50,54 +85,43 @@ div.text.two {
 }
 
 div.text.three {
-    font-size: 120px;
+    font-size: 100px;
 }
 
 /* rule 2 */
 
 div.text.a {
-    background-image: url('FIRE.png');
-    background-repeat:no-repeat;
-    background-size: 300px;
-    background-position: top left;
-    color: transparent;
+    color: rgb(221, 96, 28);
 }
 
 div.text.b {
-    background-image: url('FIRE2.png');
-    background-repeat:repeat;
-    background-size: 400px;
-    background-position: top right;
-    
+    color: rgb(60, 86, 232);    
 }
 
 div.text.c {
-    background-image: url('FIRE3.png');
-    background-repeat:repeat;
-    background-size: 200px;
-    background-position: bottom left;
-
+    color: rgb(210, 14, 14);
 }
 
+
 /* rule 3 */
-/* 
+
 div.text.x {
-    background: linear-gradient(red, yellow);
+    transform: rotate(-10deg)
 }
 
 div.text.y {
-    background: linear-gradient(blue, red);
+    transform: rotate(10deg)
 }
 
 div.text.z {
-    background: linear-gradient(white,pink);
-} */
+    transform: rotate(5deg)
+}
 
 
 
 div.small {
     font-size:30px;
     text-align: center;
-    color:blueviolet;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-

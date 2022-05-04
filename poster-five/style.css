@@ -1,0 +1,86 @@
+body {
+    background-color:greenyellow;
+}
+
+div.poster {
+    background-color: white;
+    width:75%;
+}
+
+
+@font-face {
+    font-family:'font1';
+    src:url('PicNic-Regular.eot')
+}
+
+div.text {
+    font-size: 120px;
+    font-family:'font1';
+    text-align: center;
+    color: red;
+    transition:0.5s
+}
+
+
+
+
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 60px;
+}
+
+div.text.two {
+    font-size: 120px;
+}
+
+div.text.three {
+    font-size: 180px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    transform: scale(-1,1);
+}
+
+div.text.b {
+    transform: scale(0,1);
+}
+
+div.text.c {
+    transform: scale(1,1);
+}
+
+/* rule 3 */
+
+div.text.x {
+    background-image:url('mymind-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.text.y {
+    background-image:url('mymind-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.text.z {
+    background-image:url('mymind-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+div.small {
+    font-size:30px;
+    text-align: center;
+    color:blueviolet;
+}
+
