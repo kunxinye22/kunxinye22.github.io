@@ -1,0 +1,256 @@
+body {
+    font-family: font2;
+    font-size: 24px;
+    background-image:url(images/background.png);
+    background-repeat: repeat-x;
+    background-size:cover;
+    text-decoration-line:none;
+    color: aliceblue;
+}
+
+img {
+    width: 100%;
+}
+
+@font-face {
+    font-family: "font1"; 
+    src: url("font1.woff") format("woff"); 
+  }
+
+  @font-face {
+    font-family: "font2"; 
+    src: url("font2.woff") format("woff"); 
+  }
+
+div.header {
+    display: flex;
+    /* flex-wrap: wrap;   */
+    box-shadow: 10px 0px 10px lightgray;  
+    position:fixed;
+    top: 0;
+    padding:15px;
+    opacity:70%;
+    width: 100%;
+    background-color: white;
+    font-family: font1;
+    color: black;
+    text-decoration-line:none;    
+}
+
+
+
+
+div.logo {
+    width:33.333%;
+    text-align:left;
+    font-size: 40px;
+    text-decoration:none;
+}
+
+div.theme {
+    width:33.333%;
+    text-align:center;
+    font-size: 50px;
+}
+
+div.nav {
+    width:33.333%;
+    text-align:right;
+    font-size: 40px;
+}
+
+
+
+div.header a {
+    color: blue;
+}
+
+div.header a:hover {
+    color:gray; 
+}
+
+div.note a:hover {
+    color:red
+}
+
+div.logo {
+    padding: 10px;
+    width: 50%;
+}
+
+
+div.nav {
+    width: 50%;
+    padding: 10px;
+}
+
+div.masthead {
+    font-size: 40vw;
+    line-height:32vw;
+}
+
+
+
+
+
+div.about1 {
+    font-family: font2;
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 30px;
+    padding: 15px;
+    width: 80%;
+    margin-left: 200px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    border-bottom: 1px solid white;
+}
+
+div.title1 {
+    font-family: font2;
+    text-align: center;
+    font-size: 200px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}   
+
+
+div.footnotes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-top: 1px solid white;
+}
+
+
+div.footnotes1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+
+div.note {
+    text-align: center;
+    width: 33.333%;  
+    padding: 20px;  
+    font-size: 30px;
+    color: white;
+    font-family: font2;
+}
+
+div.note a {
+    text-decoration: none;
+    color: white;
+}
+
+div.title{
+    font-size: 200px;
+    font-family: font2;
+    text-align:center;
+    margin-top:100px;
+    color: aliceblue;
+    
+}
+
+div.keywords {
+    font-size: 17px;
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+a.buttonkw { 
+    outline: solid 3px white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: 5px;
+    border-radius: 220px;
+    margin-left: 40px;
+}
+
+div.keywords a:hover {
+    outline: solid 5px red;
+}
+
+
+div.container {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+
+div.item {
+    width:33.333%;
+    padding:20px;
+}
+
+div.item1 {
+    align-items: center;
+    width: 50%;
+    padding:20px;
+}
+
+
+div.item.feature {
+    color: white;
+}
+
+
+div.item1.feature {
+    color: white;
+}
+
+div.item.feature:hover {
+    box-shadow: 0 4px 10px rgb(255, 0, 0), 0 4px 20px 0 rgb(255, 0, 0);
+}
+
+div.item1.feature:hover {
+    box-shadow: 0 4px 10px rgb(255, 0, 0), 0 4px 20px 0 rgb(255, 0, 0);
+}
+
+
+
+a.button {
+    background-color: blue;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+div.number {
+    font-size: 72px;
+}
+
+div.featureimage{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.title.white{
+    color: white;
+}
+
+div.footer {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+    margin-top: 25vh;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+div.footercol {
+    width: 50%;
+    text-align: center;
+}
+
